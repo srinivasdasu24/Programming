@@ -1,5 +1,11 @@
+'''
+
+Author : Dasu Srinivas
+Description : find the third smallest element in the given array
+
+'''
 import sys
-def ThirdSmallest(array):
+def thirdSmallest(array):
     first = sys.maxsize
     second = sys.maxsize
     third = sys.maxsize
@@ -15,5 +21,5 @@ def ThirdSmallest(array):
             third = array[i]
     return third
 
-print(ThirdSmallest([10,20,3,5,18,9,25,57]))
+print(thirdSmallest([10,20,3,5,18,9,25,57]))
 # output is 9
