@@ -51,7 +51,7 @@ ll.push(20)
 ll.push(4)
 ll.push(15)
 ll.push(3)
-
+ll.printLinkedList()
 ll.head.next.next.next.next = ll.head.next.next
 ll.detectLoop()
 ll.printLinkedList()
