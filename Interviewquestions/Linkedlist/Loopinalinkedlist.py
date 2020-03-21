@@ -46,7 +46,7 @@ class LinkedList:
             fast.next = None
 
 
-ll = LinkedList()
+'''ll = LinkedList()
 ll.push(20)
 ll.push(4)
 ll.push(15)
@@ -55,3 +55,4 @@ ll.printLinkedList()
 ll.head.next.next.next.next = ll.head.next.next
 ll.detectLoop()
 ll.printLinkedList()
+'''
