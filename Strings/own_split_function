@@ -1,0 +1,21 @@
+def mysplit(strng):
+#
+# put your code here
+#
+    lst=[]
+    word=""
+    for i in strng:
+        if i!=' ' and i!='':
+            word+=i
+        elif i==' 'or i=='\n':
+            if word !='':
+                lst.append(word)
+                word=""
+    if word!='':
+        lst.append(word)
+    return lst
+print(mysplit("To be or not to be, that is the question"))
+print(mysplit("To be or not to be,that is the question"))
+print(mysplit("   "))
+print(mysplit(" abc "))
+print(mysplit(""))
