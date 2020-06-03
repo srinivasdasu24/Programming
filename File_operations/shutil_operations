@@ -1,0 +1,18 @@
+"""
+
+Explains usgae of shutil module with examples
+
+"""
+import shutil
+
+# copy file to another file
+shutil.copy("original_file_path","new_file_path")
+
+# copy a directory to another directory or location
+shutil.copytree("directory_path", "new_directory_path")
+
+# move one file to other file
+shutil.move("file_path","new_file_path")
+
+
+
