@@ -1,0 +1,17 @@
+"""
+
+Explains how to walk a directory with examples using os.walk() method
+os.join()
+os.path.join()
+"""
+
+import os
+
+for foldernames, subfoldernames, filenames in os.walk("directory or folder name"):
+    print("the folder is :", foldernames)
+    print("the subfolder in :", foldernames, "is ", str(subfoldernames))
+    print("the filenames in :", foldernames, "are ", str(filenames))
+    print()
+    
+    
+  
