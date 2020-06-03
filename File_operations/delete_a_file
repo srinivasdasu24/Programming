@@ -1,0 +1,22 @@
+"""
+Exaplains how to delete a file
+
+"""
+
+import os
+
+os.unlink("file_name") # - removes given file in the current working directory
+
+os.rmdir("directory_name")  # - make sure directory doesn;t have any content
+
+import shutil
+
+shutil.rmtree("folder_name") # -- delete entire folder with sub folders even it has data
+
+
+# send2trash third party module can be used to delete any files or folders to trash instead of deleting permanently
+# pip install send2trash
+
+import send2trash
+
+send2trash.send2trash("file name or folder name") 
